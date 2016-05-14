@@ -62,6 +62,7 @@ class Menus(object):
         if not Menus.pathsToFilesWithFoundWords:
             # list is empty, no words were found
             print("That word was not found in any of the files.")
+            raw_input("Press Enter to exit.")
         else:
             print("%d files have the word you are looking for." % Menus.pathsToFilesWithFoundWords.__len__())
             self.askAboutFileOpening()

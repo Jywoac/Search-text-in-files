@@ -33,8 +33,6 @@ class OpenAndSearch:
                     else:
                         letterInWord = 0
 
-        print(wordFoundInFile)
-
         return wordFoundInFile
 
     # close given file
